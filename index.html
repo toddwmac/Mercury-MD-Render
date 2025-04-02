@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Note Taker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Markdown Note Taker</h1>
+        <textarea id="markdownInput" placeholder="Type or paste your Markdown here..."></textarea>
+        <div class="buttons">
+            <button id="copyButton">Copy Rendered Text</button>
+            <button id="clearButton">Clear Both Windows</button>
+        </div>
+        <div id="preview" class="preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.3.2/dist/markdown-it.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
